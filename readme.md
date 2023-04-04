@@ -9,6 +9,21 @@ This is a small application which gives brief detail of periodic elements in tab
 <br/>
 <br/>
 
+Description/What it does ?
+______________
+
+This application provides below few key features:
+
+1) Drag Drop feature on table columns so that users can arrange them as per their convenience.
+2) Pagination and Sorting is applied on the data for better readability.
+3) This application demonstrates angular routing.
+4) Used HTTP feature to fetch the records from a json file.
+5) I have done the componentization i.e., the table on the dashboard is totally reusable and can be used instantly with any page as the data is provided from outside. which makes the application loosely coupled and flexible and easy to test.
+
+<br/>
+<br/>
+<br/>
+
 Technologies Used
 _______________________
 
@@ -31,20 +46,6 @@ This application consist two sections currently
 1) Header Navbar
 2) Periodic Table
 
-<br/>
-<br/>
-<br/>
-
-Features
-______________
-
-This application provides below few key features:
-
-1) Drag Drop feature on table columns so that users can arrange them as per their convenience.
-2) Pagination and Sorting is applied on the data for better readability.
-3) This application demonstrates angular routing.
-4) Used HTTP feature to fetch the records from a json file.
-5) 
 <br/>
 <br/>
 <br/>
