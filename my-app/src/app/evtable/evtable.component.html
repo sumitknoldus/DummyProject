@@ -1,0 +1,20 @@
+<div style="margin: 10px;">
+  <mat-paginator [length]="100"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[5, 10, 25, 100]"
+                 aria-label="Select page">
+  </mat-paginator>
+  <table mat-table matSort [dataSource]="datasource"
+       class="mat-elevation-z8"
+       cdkDropList
+       cdkDropListOrientation="horizontal"
+       (cdkDropListDropped)="drop($event)"
+>
+  <ng-container *ngFor="let fa of tableFieldAttribs; let i=index;" matColumnDef="{{fa.fieldId}}">
+    <th mat-header-cell cdkDrag *matHeaderCellDef> {{fa.labelId}} </th>
+    <td mat-cell *matCellDef="let element"> {{element[fa.dataKey]}} </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+</div>
