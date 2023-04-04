@@ -1,8 +1,10 @@
 == Introduction ==
+__________________
 
 This is a small application which gives brief detail of periodic elements in tabular format.
 
 == Technologies Used ==
+_______________________
 
 This application has been built upon following technologies:
 
@@ -13,19 +15,29 @@ This application has been built upon following technologies:
 5) HTML, CSS
 
 == Layout ==
+____________
 
 This application consist two sections currently 
 
 1) Header Navbar
 2) Periodic Table
 
-== Features == 
+== Features ==
+______________
 
 This application provides below few key features:
 
 1) Drag Drop feature on table columns so that users can arrange them as per their convenience.
 2) Pagination and Sorting is applied on the data for better readability.
 
+
+== Testing Guidelines ==
+________________________
+
+1) Verify that user should see "Evolving Web" brand image on the header section.
+2) Verify that user should see burger icon button as well as settings icon on the header nav bar.
+3) Verify that Sorting and Pagination is working accordingly.
+4) Verify that user is able to see the data in the EW Table.
 
 
 
