@@ -31,8 +31,9 @@ This application provides below few key features:
 2) Pagination and Sorting is applied on the data for better readability.
 
 
-== Testing Guidelines ==
+
 ________________________
+Testing Guidelines
 
 1) Verify that user should see "Evolving Web" brand image on the header section.
 2) Verify that user should see burger icon button as well as settings icon on the header nav bar.
