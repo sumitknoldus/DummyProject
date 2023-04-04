@@ -4,6 +4,9 @@ __________________
 
 This is a small application which gives brief detail of periodic elements in tabular format.
 
+<br/>
+<br/>
+<br/>
 
 Technologies Used
 _______________________
@@ -15,7 +18,9 @@ This application has been built upon following technologies:
 3) NodeJS
 4) Typescript
 5) HTML, CSS
-
+<br/>
+<br/>
+<br/>
 
 Layout
 ____________
@@ -25,6 +30,9 @@ This application consist two sections currently
 1) Header Navbar
 2) Periodic Table
 
+<br/>
+<br/>
+<br/>
 
 Features
 ______________
@@ -33,7 +41,9 @@ This application provides below few key features:
 
 1) Drag Drop feature on table columns so that users can arrange them as per their convenience.
 2) Pagination and Sorting is applied on the data for better readability.
-
+<br/>
+<br/>
+<br/>
 
 Testing Guidelines
 ________________________
