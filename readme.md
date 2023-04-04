@@ -1,11 +1,12 @@
 
-__________________
 Introduction
+__________________
 
 This is a small application which gives brief detail of periodic elements in tabular format.
 
-_______________________
+
 Technologies Used
+_______________________
 
 This application has been built upon following technologies:
 
@@ -14,16 +15,19 @@ This application has been built upon following technologies:
 3) NodeJS
 4) Typescript
 5) HTML, CSS
-____________
+
+
 Layout
+____________
 
 This application consist two sections currently 
 
 1) Header Navbar
 2) Periodic Table
 
-______________
+
 Features
+______________
 
 This application provides below few key features:
 
@@ -31,9 +35,8 @@ This application provides below few key features:
 2) Pagination and Sorting is applied on the data for better readability.
 
 
-
-________________________
 Testing Guidelines
+________________________
 
 1) Verify that user should see "Evolving Web" brand image on the header section.
 2) Verify that user should see burger icon button as well as settings icon on the header nav bar.
