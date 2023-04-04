@@ -1,12 +1,21 @@
 <mat-toolbar>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+  <button mat-icon-button>
     <mat-icon>menu</mat-icon>
   </button>
   <span><img style="width: 100px;padding-left: 6px"
              src="assets/ew.png"
-             class="logo-image" onerror="this.style.display='none'"></span>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>settings</mat-icon>
-  </button>
+             onerror="this.style.display='none'"></span>
+  <div class="navigation">
+    <a mat-button [routerLink]="'/'"> Dashboard </a>
+    <a mat-button [routerLink]="'/documentation'"> Documentation </a>
+  </div>
+  <span class="spacer"></span>
+<!--  <button mat-icon-button>-->
+    <button mat-button [matMenuTriggerFor]="menu"><mat-icon>settings</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>About Us</button>
+      <button mat-menu-item>Profile</button>
+      <button mat-menu-item>Settings</button>
+    </mat-menu>
+<!--  </button>-->
 </mat-toolbar>

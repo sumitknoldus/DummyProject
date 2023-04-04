@@ -8,21 +8,38 @@ import {MatTableModule} from "@angular/material/table";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {DragDropModule} from "@angular/cdk/drag-drop";
 import { HeaderNavComponent } from './header-nav/header-nav.component';
-import {MaterialExampleModule} from "./material.module";
+import {MatIconModule} from "@angular/material/icon";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatSortModule} from "@angular/material/sort";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {HttpClientModule} from "@angular/common/http";
+import { EvDocComponent } from './ev-doc/ev-doc.component';
+import { EvtableWrapperComponent } from './evtable-wrapper/evtable-wrapper.component';
+import {MatButtonModule} from "@angular/material/button";
+import {MatCardModule} from "@angular/material/card";
+import {MatMenuModule} from "@angular/material/menu";
 @NgModule({
   declarations: [
     AppComponent,
     EvtableComponent,
-    HeaderNavComponent
+    HeaderNavComponent,
+    EvDocComponent,
+    EvtableWrapperComponent
   ],
   imports: [
-    MatTableModule,
     DragDropModule,
     BrowserModule,
     AppRoutingModule,
-    MaterialExampleModule,
-    BrowserAnimationsModule
-
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatTableModule,
+    MatIconModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
