@@ -1,10 +1,11 @@
-== Introduction ==
+
 __________________
+Introduction
 
 This is a small application which gives brief detail of periodic elements in tabular format.
 
-== Technologies Used ==
 _______________________
+Technologies Used
 
 This application has been built upon following technologies:
 
@@ -13,17 +14,16 @@ This application has been built upon following technologies:
 3) NodeJS
 4) Typescript
 5) HTML, CSS
-
-== Layout ==
 ____________
+Layout
 
 This application consist two sections currently 
 
 1) Header Navbar
 2) Periodic Table
 
-== Features ==
 ______________
+Features
 
 This application provides below few key features:
 
