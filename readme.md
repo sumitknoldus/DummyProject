@@ -9,6 +9,22 @@ This is a small application which gives brief detail of periodic elements in tab
 <br/>
 <br/>
 
+Project Setup and Execution
+___________________________
+Run below commands sequentially: 
+
+1) git clone git@github.com:sumitknoldus/DummyProject.git
+2) cd DummyProject
+3) git checkout EvolvingWeb
+4) cd my-app
+5) npm install
+6) ng serve --open
+
+
+<br/>
+<br/>
+<br/>
+
 Description/What it does ?
 ______________
 
@@ -23,6 +39,8 @@ This application provides below few key features:
 <br/>
 <br/>
 <br/>
+
+
 
 Technologies Used
 _______________________
